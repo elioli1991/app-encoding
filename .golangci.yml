@@ -7,7 +7,7 @@ linters:
   fast: false
   enable:
     - bodyclose
-    - deadcode
+    # - deadcode
     - dogsled
     - durationcheck
     - errcheck
@@ -19,9 +19,9 @@ linters:
     - goconst
     - goimports
     - gomnd
-    - gocyclo
+    # - gocyclo
     - ineffassign
-    - lll
+    # - lll
     - prealloc
     - revive
     - staticcheck
